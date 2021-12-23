@@ -8,11 +8,11 @@ schedules:
   displayName: Wednesday midnight build
   branches:
     include:
-    - main
+    - master
   always: true
 
 trigger:
-- main
+- master
 - develop
 - feature/*
 - bugfix/*
